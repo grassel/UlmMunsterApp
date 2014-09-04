@@ -12,6 +12,7 @@
 		C5A60BAE19B8F0C100DE96CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A60BAC19B8F0C100DE96CD /* Main.storyboard */; };
 		C5A60BB019B8F0C100DE96CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A60BAF19B8F0C100DE96CD /* Images.xcassets */; };
 		C5A60BBC19B8F0C100DE96CD /* UlmMunsterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A60BBB19B8F0C100DE96CD /* UlmMunsterAppTests.swift */; };
+		C5A60BC619B8F0E500DE96CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A60BC519B8F0E500DE96CD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		C5A60BB519B8F0C100DE96CD /* UlmMunsterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UlmMunsterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A60BBA19B8F0C100DE96CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A60BBB19B8F0C100DE96CD /* UlmMunsterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlmMunsterAppTests.swift; sourceTree = "<group>"; };
+		C5A60BC519B8F0E500DE96CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A60BC619B8F0E500DE96CD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		C5A60B9A19B8F0C100DE96CD = {
 			isa = PBXGroup;
 			children = (
+				C5A60BC519B8F0E500DE96CD /* MapKit.framework */,
 				C5A60BA519B8F0C100DE96CD /* UlmMunsterApp */,
 				C5A60BB819B8F0C100DE96CD /* UlmMunsterAppTests */,
 				C5A60BA419B8F0C100DE96CD /* Products */,
